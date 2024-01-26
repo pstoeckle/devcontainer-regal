@@ -1,0 +1,10 @@
+{
+    "v0.15.0": {
+        "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+        "features": {
+            "regal": {
+                "version": "v0.15.0"
+            }
+        }
+    }
+}

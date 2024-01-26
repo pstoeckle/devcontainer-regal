@@ -1,0 +1,19 @@
+{
+    "name": "Regal (via Github Releases)",
+    "id": "regal",
+    "version": "0.15.0",
+    "description": "Regal is a linter for Rego, with the goal of making your Rego magnificent!",
+    "options": {
+        "version": {
+            "default": "v0.15.0",
+            "description": "Select the version to install.",
+            "proposals": [
+                "latest"
+            ],
+            "type": "string"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers-contrib/features/gh-release"
+    ]
+}
